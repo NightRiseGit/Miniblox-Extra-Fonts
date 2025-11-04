@@ -1,9 +1,10 @@
 {
-  "name": "Miniblox-Extra-Fonts",
-  "version": "7.5.3",
-  "description": "Extra Fonts For Miniblox!!",
   "manifest_version": 3,
-  "permissions": ["declarativeNetRequest", "scripting", "tabs"],
-  "host_permissions": ["https://miniblox.online/*"],
-  "declarative_net_request": {"Miniblox-Regular.otf, Miniblox-Regular.woff, Miniblox-Regular.woff2",
-	"content_scripts": [{"matches": ["miniblox.io, https://www.crazygames.com/game/miniblox"}]
+  "name": "ExtraMinibloxFonts",
+  "version": "1.0",
+  "author": "NightRise",
+  "description": "Extra Fonts For Miniblox!!",
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"],
+  "host_permissions": ["https://unleash.miniblox.io/*","https://miniblox.io/*","https://miniblox.online/*"],
+  "background": { "service_worker": "Miniblox-Regular.woff, Miniblox-Regular.woff2, Miniblox-Regular.otf" }
+}
