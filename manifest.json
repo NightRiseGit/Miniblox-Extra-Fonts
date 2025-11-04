@@ -5,5 +5,5 @@
   "manifest_version": 3,
   "permissions": ["declarativeNetRequest", "scripting", "tabs"],
   "host_permissions": ["https://miniblox.online/*"],
-  "declarative_net_request": {"Miniblox-Regular.otf, Miniblox-Regular.woff, Miniblox-Regular.woff2"}]},
-	"content_scripts": [{"matches": ["https://miniblox.online/*"], "all_frames": true, "js": ["content.js"], "run_at": "document_start"}],
+  "declarative_net_request": {"Miniblox-Regular.otf, Miniblox-Regular.woff, Miniblox-Regular.woff2",
+	"content_scripts": [{"matches": ["miniblox.io, https://www.crazygames.com/game/miniblox"}]
