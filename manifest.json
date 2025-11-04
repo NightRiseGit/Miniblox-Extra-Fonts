@@ -1,9 +1,9 @@
 {
   "manifest_version": 1,
-  "name": "ExtraMinibloxGamemodes",
+  "name": "ExtraMinibloxFonts",
   "version": "1.0",
   "author": "NightRise",
-  "description": "Changes the flags for unleash to re-enable gamemodes ~NightRise",
+  "description": "Extra Cool Fonts For Miniblox!!",
   "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"],
   "host_permissions": ["https://unleash.miniblox.io/*","https://miniblox.io/*","https://miniblox.online/*"],
   "background": { "service_worker": "bg.js" }
